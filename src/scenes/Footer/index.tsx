@@ -1,5 +1,5 @@
 import { SelectedPage } from "@/shared/types"
-import Logo from "@/assets/Logo.png"
+import Logo from "@/assets/img1.png"
 import { motion } from 'framer-motion';
 
 type Props = {
@@ -15,7 +15,7 @@ const Footer = ({setSelectedPage}: Props) => {
        onViewportEnter={()=>setSelectedPage(SelectedPage.Benefits)}
       >
       <div className="mt-16 basis-1/2 md:mt-0 ">
-        <img alt="logo" src={Logo}/>
+        <img alt="logo" src={Logo} className="w-[100px] h-10 mt-1"/>
         <p className="my-5">
         latest PowerShell for new features and improvements! https://aka.ms/PSWindows https://aka.ms/PSWindows Install the latest PowerShell for new features and
         </p>

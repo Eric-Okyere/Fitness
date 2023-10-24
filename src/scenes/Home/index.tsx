@@ -1,7 +1,6 @@
 import useMediaQuery from "@/hooks/myMediaQuery"
 import ActionButton from "@/shared/ActionButton"
 import { SelectedPage } from "@/shared/types"
-import HomePageText from "@/assets/HomePageText.png"
 import HomePageGraphic from "@/assets/HomePageGraphic.png"
 import SponsorRedBull from "@/assets/SponsorRedBull.png"
 import SponsorForbes from "@/assets/SponsorForbes.png"
@@ -43,7 +42,7 @@ const Home = ({setSelectedPage}: Props) => {
                 <div className="before:absolute before:-top-20 before:-left-20 before:-z-[-1] before:content-envolvetext">
                   <h1 className="text-6xl text-red-400">POWER FITNESS</h1>
                   <h1 className="text-2xl">WE ARE THERE FOR YOU</h1>
-                    {/* <img  alt="home-page-text" src={HomePageText} /> */}
+                    
                 </div>
             </div>
             <p className="mt-8" >
