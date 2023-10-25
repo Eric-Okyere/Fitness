@@ -40,7 +40,7 @@ const ContactUs = ({setSelectedPage}:Props) => {
             >
                 <HText>
                     <span className="text-red-400">JOIN NOW</span>
-                    {""} TO GET IN SHAPE
+                    {""} TO GET FIT
                 </HText>
                 <p className="my-5">
                 Install the latest PowerShell for new features and improvements! Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows https://aka.ms/PSWindows Install the latest PowerShell for new features and

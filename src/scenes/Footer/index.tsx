@@ -1,9 +1,15 @@
 import { SelectedPage } from "@/shared/types"
 import Logo from "@/assets/img1.png"
 import { motion } from 'framer-motion';
+import Twi from "@/assets/twi.png"
+import Face from "@/assets/face.png"
+import Insta from "@/assets/insta.png"
+
+
 
 type Props = {
   setSelectedPage: (value:SelectedPage)=>void
+
 }
 
 const Footer = ({setSelectedPage}: Props) => {
@@ -33,8 +39,15 @@ const Footer = ({setSelectedPage}: Props) => {
         
       <h4 className="font-bold">Contact Us</h4>
       <p className="my-5">Tempus metus mattis risus volupat egestas.</p>
-      <p className="my-5">(+233)247747624</p>
-
+      <p className="my-5">
+      
+        (+233)247747624</p>
+        <div className="flex gap-6 mb-5">
+        <img alt="log" src={Twi} className="w-5" h-10 />
+        <img alt="log" src={Face} className="w-5" h-10 />
+        <img alt="log" src={Insta} className="w-5" h-10 />
+        
+        </div>
       </div>
       </motion.div>
      

@@ -37,7 +37,7 @@ const navbarbackground = isTopOfPage ? "":"bg-red-100 drop-shadow";
             <Link page="Benefits" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
             <Link  page="Our classes" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
             <Link  page="Contact Us" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
-            <Link  page="Footer" selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
+            
             </div>
 
             <div className={`${flexBetween} gap-8 mt-2`}>

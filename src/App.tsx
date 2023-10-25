@@ -10,9 +10,12 @@ import Footer from "./scenes/Footer";
 
 
 
+type Props = {
+  
+  icon: JSX.Element
+}
 
-
-function App() {
+function App({icon}:Props) {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
     SelectedPage.Home);
     const [isTopOfPage, setIsTopOfPage] = useState<Boolean>(true)
@@ -42,7 +45,7 @@ function App() {
    <Benefits setSelectedPage={setSelectedPage}/>
     <Ourclasses setSelectedPage={setSelectedPage} />
     <ContactUs setSelectedPage={setSelectedPage} />
-   <Footer setSelectedPage={setSelectedPage} />
+   <Footer icon={icon} setSelectedPage={setSelectedPage} />
     </div>
   )
 }
